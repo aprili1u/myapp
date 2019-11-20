@@ -11,7 +11,7 @@ const app = express();
 //some basic route
 app.get("/", (req, res) => {
   //send response.
-  res.json({ message: "coucou" });
+  res.json({ message: "coucou", tile: "coucou" });
 });
 
 //Start server.
